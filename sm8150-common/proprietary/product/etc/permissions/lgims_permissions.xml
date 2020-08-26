@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <permission name="com.lge.permission.IMS" >
+        <group gid="system" />
+        <group gid="radio" />
+        <group gid="inet" />
+        <group gid="net_admin" />
+        <group gid="audio" />
+        <group gid="camera" />
+        <group gid="media" />
+        <group gid="net_raw" />
+    </permission>
+</permissions>
