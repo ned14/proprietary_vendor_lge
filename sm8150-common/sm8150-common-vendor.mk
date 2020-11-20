@@ -1242,7 +1242,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libplatformconfig \
-    vendor.qti.hardware.capabilityconfigstore@1.0 \
     WfdService \
     CneApp \
     IWlanService \
@@ -1255,6 +1254,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     seccamservice \
     WfdCommon \
-    vendor.qti.hardware.capabilityconfigstore-V1.0-java \
     android.hardware.gnss@2.0-service-qti \
     vendor.qti.gnss@3.0-service
