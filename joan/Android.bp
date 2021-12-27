@@ -68,17 +68,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WfdService",
-	owner: "lge",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "CneApp",
 	owner: "lge",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
@@ -133,12 +122,6 @@ android_app_import {
 	},
 	privileged: true,
 	system_ext_specific: true,
-}
-
-dex_import {
-	name: "WfdCommon",
-	owner: "lge",
-	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
 prebuilt_etc_xml {
